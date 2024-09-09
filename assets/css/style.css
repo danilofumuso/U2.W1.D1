@@ -240,6 +240,18 @@ footer a {
     font-size: 1.8rem;
   }
 
+  table th:nth-child(1) {
+    width: 12rem;
+  }
+
+  table th:nth-child(2) {
+    width: 16rem;
+  }
+
+  table th:nth-child(3) {
+    width: 24rem;
+  }
+
   input {
     width: 465px;
     padding: 12px;
@@ -255,6 +267,14 @@ footer a {
 }
 
 @media screen and (min-width: 1200px) {
+  body {
+    margin-inline: auto;
+    width: 85%;
+    padding-inline: 3rem;
+    line-height: 4rem;
+    font-size: 2.1rem;
+  }
+
   header {
     text-align: left;
     padding: 0rem 0.5rem;
@@ -268,7 +288,48 @@ footer a {
     display: inline;
   }
 
-  header nav {
-    display: inline;
+  table th:nth-child(1) {
+    width: 16rem;
+  }
+
+  table th:nth-child(2) {
+    width: 32rem;
+  }
+
+  table th:nth-child(3) {
+    width: 48rem;
+  }
+
+  iframe {
+    width: 49.5%;
+    height: 300px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: -87px;
+  }
+
+  section {
+    display: inline-block;
+    width: 49.5%;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  input {
+    width: 450px;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33%;
+  }
+
+  aside h2 {
+    padding-block: 2rem;
+    font-size: 3.5rem;
+  }
+
+  footer {
+    padding-inline: 28rem;
   }
 }
